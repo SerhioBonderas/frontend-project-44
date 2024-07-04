@@ -8,15 +8,13 @@ const brainEven = () => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!\nAnswer "yes" if the number is even, otherwise answer "no".`);
-  let result = 0;
   for (let i = 0; i < 3; i += 1) {
     let num = getRandomInt(100);
     let correctAnswer = '';
     console.log(`Question: ${num}`);
     let userResponse = readlineSync.question('Your answer: ');
     if (num % 2 === 0) {
-      correctAnswer = 'yes';
-      result += 1;
+      correctAnswer = 'yes'
       if (correctAnswer === userResponse) {
         console.log('Correct!');
       } else {
@@ -26,7 +24,6 @@ const brainEven = () => {
       correctAnswer = 'no';
       if (correctAnswer === userResponse) {
         console.log('Correct!');
-        result += 1;
       } else {
         return console.log(`${userResponse} is wrong answer ;\(.Correct answer was 'no'.\nLet's try again, ${userName}!`);
       };
