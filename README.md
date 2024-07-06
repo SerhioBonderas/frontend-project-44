@@ -5,3 +5,6 @@
 
 ### Game control Brain-even:
 https://asciinema.org/a/MPN6mLhDYBpkAeQfjul97ClZ3 
+
+### Game control Brain-calc:
+https://asciinema.org/a/PQ6kRtWFwgur7BaLZnsl7eH1X
