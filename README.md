@@ -8,3 +8,6 @@ https://asciinema.org/a/MPN6mLhDYBpkAeQfjul97ClZ3
 
 ### Game control Brain-calc:
 https://asciinema.org/a/PQ6kRtWFwgur7BaLZnsl7eH1X
+
+### Game control Brain-gsd:
+ https://asciinema.org/a/UWFhde430JN4nKOPT0YhM3mzQ
