@@ -11,3 +11,6 @@ https://asciinema.org/a/PQ6kRtWFwgur7BaLZnsl7eH1X
 
 ### Game control Brain-gsd:
  https://asciinema.org/a/UWFhde430JN4nKOPT0YhM3mzQ
+
+### Game control Brain-progression
+ https://asciinema.org/a/YF5NTKEIEkRXzm0GifGhGPy6o
