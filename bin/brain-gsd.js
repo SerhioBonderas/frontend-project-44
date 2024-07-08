@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import { getRandomInt, getGsd, brainGsd } from '../src/gsd.js'
+import { startGame } from '../src/games/gsd.js'
 
-brainGsd();
+startGame();

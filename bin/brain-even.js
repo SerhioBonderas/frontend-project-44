@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import { getRandomInt, brainEven } from '../src/even.js';
+import { startGame } from '../src/games/even.js';
 
-brainEven();
+startGame();

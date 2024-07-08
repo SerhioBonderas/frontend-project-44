@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import { getRandomInt, getRandomOperator, brainCalc } from '../src/calc.js';
+import { startGame } from '../src/games/calc.js';
 
-brainCalc();
+startGame();
