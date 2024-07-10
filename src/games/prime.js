@@ -1,7 +1,7 @@
 import getRandomInt from '../random.js';
 import engineGame from '../index.js';
 
-const rules = 'Answer "yes" if given number is prime.Otherwise answer "no".';
+const rules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (num) => {
   for (let i = 2; i < num; i += 1) {
