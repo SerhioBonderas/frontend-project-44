@@ -20,6 +20,7 @@ const generateRound = () => {
     case '*':
       answer = firstNum * secondNum;
       break;
+    default:
   }
   const correctAnswer = answer.toString();
   return [question, correctAnswer];
