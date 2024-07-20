@@ -16,8 +16,8 @@ const calculate = (num1, num2, operator) => {
       result = num1 * num2;
       break;
     default:
-  };
-  
+  }
+
   return result;
 };
 
@@ -27,7 +27,7 @@ const generateRound = () => {
   const firstNum = getRandomInt(0, 50);
   const secondNum = getRandomInt(0, 50);
   const question = `${firstNum} ${operator} ${secondNum}`;
-  let correctAnswer = calculate(firstNum, secondNum, operator).toString();
+  const correctAnswer = calculate(firstNum, secondNum, operator).toString();
 
   return [question, correctAnswer];
 };
